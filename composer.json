@@ -1,0 +1,22 @@
+{
+    "name": "formation/pierre-feuille-ciseaux",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas",
+            "email": "github@liliwol.fr"
+        }
+    ]
+}
